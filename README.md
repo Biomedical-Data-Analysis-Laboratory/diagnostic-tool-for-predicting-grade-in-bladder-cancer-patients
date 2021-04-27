@@ -8,7 +8,7 @@ Code for this repository will be uploaded upon paper acceptance.
 ### Abstract
 TBA
 
-![alt text](images/Segmentation vs ground truth.png?raw=true)
+![alt text](images/segmentation_vs_groundtruth.png?raw=true)
 
 ### Requirements
 
