@@ -26,7 +26,7 @@ PIL==6.0.0
 TBA
 
 ### How to cite our work
-The code is released free of charge as open-source software under the GPL-3.0 License. Please cite our paper when you have used it in your study.
+The code is released free of charge as open-source software under the GPL-3.0 License. Please cite our paper if you use it in your research.
 ```
 @article{wetteland2021diagnostic,
   title={Automatic diagnostic tool for predicting cancer grade in bladder cancer patients using deep learning},
@@ -35,5 +35,4 @@ The code is released free of charge as open-source software under the GPL-3.0 Li
   year={2021},
   publisher={IEEE}
 }
-
 ```
