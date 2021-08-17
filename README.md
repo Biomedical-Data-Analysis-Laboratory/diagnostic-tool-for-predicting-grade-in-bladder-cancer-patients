@@ -24,7 +24,7 @@ The program can train diagnostic models for five different labels (WHO73, WHO04,
 
 The code contains a large list of options. From the main file, it is possible to choose which base model to use (VGG16/VGG19), freeze/unfreeze base model, dropout rate, number of neurons in the classifier layers, how many scales to use, and which scales to use. There is a debug mode where only a small dataset is used. There are some options for data augmentation. If the training is stopped due to, e.g., a power outage, it is possible to continue training from the last epoch; this also workes if training multiple models. It is possible to enter a list of hyperparameters, e.g. learning rate = [0.1, 0.01] dropout_rate = [0.1, 0.4], and the program will train all possible combinations of the hyperparameters. The program will save learning curves, model plots, confusion matrices, classification reports, and logs.
 
-Place the dataset in a folder called “WSI_files/”, where each SCN image has a separate folder (e.g. “WSI_files/H1234/H1234.scn”.
+Place the dataset in a folder called “WSI_files/”, where each SCN image has a separate folder (e.g., “WSI_files/H1234/H1234.scn”).
 
 To generate a dataset to train the diagnostic model, first use the tissue segmentation program from here:
 
