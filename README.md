@@ -2,16 +2,16 @@
 
 This is the source code described in the paper "Automatic diagnostic tool for predicting cancer grade in bladder cancer patients using deep learning" by Rune Wetteland, Vebjørn Kvikstad, Trygve Eftestøl, Erlend Tøssebro, Melinda Lillesand, Emiel A.M. Janssen, and Kjersti Engan.
 
-### 1 -Abstract
+###1 -Abstract
 The most common type of bladder cancer is urothelial carcinoma, which is among the cancer types with the highest recurrence rate and lifetime treatment cost per patient. Diagnosed patients are stratified into risk groups, mainly based on grade and stage. However, it is well known that correct grading of bladder cancer suffers from intra- and interobserver variability and inconsistent reproducibility between pathologists, potentially leading to under- or overtreatment of the patients. The economic burden, unnecessary patient suffering, and additional load on the health care system illustrate the importance of developing new tools to aid pathologists. We propose a pipeline, called TRI_grade, that will identify diagnostic relevant regions in the whole-slide image (WSI) and collectively predict the grade of the current WSI. The system consists of two main models, trained on weak slide-level grade labels. First, a WSI is segmented into the different tissue classes (urothelium, stroma, muscle, blood, damaged tissue, and background). Next, tiles are extracted from the diagnostic relevant urothelium tissue from three magnification levels (25x, 100x, and 400x) and processed sequentially by a convolutional neural network (CNN) based model. Ten models were trained for the slide-level grading experiment, where the best model achieved an F1-score of 0.90 on a test set consisting of 50 WSIs. The best model was further evaluated on a smaller segmentation test set, consisting of 14 WSIs where low- and high-grade regions were annotated by a pathologist. The TRI_grade pipeline achieved an average F1-score of 0.91 for both the low-grade and high-grade classes.
 
 ![alt text](images/Proposed_system.png?raw=true)
 
 ![alt text](images/segmentation_vs_groundtruth.png?raw=true)
 
-2 - How to use
+###2 - How to use
 
-2.1 – Diagnostic model
+####2.1 – Diagnostic model
 
 The main file contains three different 'modes' to choose from. To enable a mode, set the top variable under that mode to True. To run the main file, add the argument "True" or "False". "True" means you are starting a new model, and a new folder will be created. "False" will resume an existing model. If you have multiple models, use the variable CONTINUE_FROM_MODEL to specify which model to start from. By default, CONTINUE_FROM_MODEL is set to "last", which will resume the most recent model.
 
@@ -36,7 +36,7 @@ https://github.com/Biomedical-Data-Analysis-Laboratory/extracting-tiles-in-multi
 
 Place the generated pickle coordinate files in the diagnostic model folder, and the model will use them for training a new model.
 
-### 2.2 Requirements
+####2.2 Requirements
 
 The code was built using the following Python packages:
 
@@ -51,10 +51,10 @@ keras==2.2.4
 matplotlib==3.1.0  
 PIL==6.0.0  
 
-### 3 - Link to paper
+###3 - Link to paper
 https://ieeexplore.ieee.org/document/9513308
 
-### 4 - How to cite our work
+###4 - How to cite our work
 The code is released free of charge as open-source software under the GPL-3.0 License. Please cite our paper if you use it in your research.
 ```
 @article{wetteland2021diagnostic,
