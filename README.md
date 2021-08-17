@@ -25,7 +25,7 @@ matplotlib==3.1.0
 PIL==6.0.0  
 
 ### Link to paper
-[https://ieeexplore.ieee.org/document/9513308]
+https://ieeexplore.ieee.org/document/9513308
 
 ### How to cite our work
 The code is released free of charge as open-source software under the GPL-3.0 License. Please cite our paper if you use it in your research.
