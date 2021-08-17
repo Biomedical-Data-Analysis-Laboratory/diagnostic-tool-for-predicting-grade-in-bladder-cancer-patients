@@ -45,7 +45,7 @@ numpy==1.18.5
 opencv-python==4.4.0.42  
 scikit-image==0.17.2  
 scipy==1.4.1  
-pyvips==2.1.12
+pyvips==2.1.12  
 tensorflow==1.13.1  
 keras==2.2.4  
 matplotlib==3.1.0  
