@@ -40,6 +40,7 @@ If you want to use the model from the paper, the best model (TRI<sub>WHO04</sub>
 Download the model, and put the "Coordinate_dicts_files/" and "Saved_data/" folders in the root folder of the code. The "Coordinate_dicts_files/" contains coordinate pickle files for all urothelium tissue in the dataset used in the paper. It is a private, medical dataset, and it is not possible to share online. The "Saved_data/" folder contains the model weights and necessary files to use the model.
 
 Link to model:
+
 https://www.ux.uis.no/filer/diagnostic-tool-for-predicting-grade-in-bladder-cancer-patients/
 
 #### 2.2 Requirements
