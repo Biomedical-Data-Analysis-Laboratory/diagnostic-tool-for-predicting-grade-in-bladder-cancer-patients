@@ -11,8 +11,6 @@ The most common type of bladder cancer is urothelial carcinoma, which is among t
 
 ### 2 - How to use
 
-#### 2.1 – Diagnostic model
-
 The main file contains three different 'modes' to choose from. To enable a mode, set the top variable under that mode to True. To run the main file, add the argument "True" or "False". "True" means you are starting a new model, and a new folder will be created. "False" will resume an existing model. If you have multiple models, use the variable CONTINUE_FROM_MODEL to specify which model to start from. By default, CONTINUE_FROM_MODEL is set to "last", which will resume the most recent model.
 
 The three modes are:
@@ -35,6 +33,14 @@ Then, use the following program to extract the urothelium tiles:
 https://github.com/Biomedical-Data-Analysis-Laboratory/extracting-tiles-in-multilevel-gigapixel-images
 
 Place the generated pickle coordinate files in the diagnostic model folder, and the model will use them for training a new model.
+
+#### 2.1 – Diagnostic model
+If you want to use the model from the paper, the best model (TRI_WHO04-5000-AUG) can be downloaded using the link below. The model is too large to be uploaded to Github, hence, the external download link.
+
+Download the model, and put the "Coordinate_dicts_files/" and "Saved_data/" folders in the root folder of the code. The "Coordinate_dicts_files/" contains coordinate pickle files for all urothelium tissue in the dataset used in the paper. It is a private, medical dataset, and it is not possible to share online. The "Saved_data/" folder contains the model weights and necessary files to use the model.
+
+Link to model:
+https://www.ux.uis.no/filer/diagnostic-tool-for-predicting-grade-in-bladder-cancer-patients/
 
 #### 2.2 Requirements
 
