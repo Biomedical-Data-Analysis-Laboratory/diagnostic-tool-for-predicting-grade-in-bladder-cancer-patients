@@ -35,7 +35,7 @@ https://github.com/Biomedical-Data-Analysis-Laboratory/extracting-tiles-in-multi
 Place the generated pickle coordinate files in the diagnostic model folder, and the model will use them for training a new model.
 
 #### 2.1 – Diagnostic model
-If you want to use the model from the paper, the best model (TRI_WHO04-5000-AUG) can be downloaded using the link below. The model is too large to be uploaded to Github, hence, the external download link.
+If you want to use the model from the paper, the best model (TRI<sub>WHO04</sub>-5000-AUG) can be downloaded using the link below. The model is too large to be uploaded to Github, hence, the external download link.
 
 Download the model, and put the "Coordinate_dicts_files/" and "Saved_data/" folders in the root folder of the code. The "Coordinate_dicts_files/" contains coordinate pickle files for all urothelium tissue in the dataset used in the paper. It is a private, medical dataset, and it is not possible to share online. The "Saved_data/" folder contains the model weights and necessary files to use the model.
 
