@@ -64,10 +64,10 @@ https://ieeexplore.ieee.org/document/9513308
 ### 4 - How to cite our work
 The code is released free of charge as open-source software under the GPL-3.0 License. Please cite our paper if you use it in your research.
 ```
-@article{wetteland2021diagnostic,
+@article{wetteland2021automatic,
   title={Automatic diagnostic tool for predicting cancer grade in bladder cancer patients using deep learning},
-  author={Wetteland, Rune and Kvikstad, Vebjørn and Eftestøl, Trygve and Tøssebro, Erlend and Lillesand, Melinda and Janssen, Emiel A.M. and Engan, Kjersti},
-  journal={To be published in IEEE Open Journal of Engineering in Medicine and Biology},
+  author={Wetteland, Rune and Kvikstad, Vebj{\O}rn and Eftest{\O}l, Trygve and T{\O}ssebro, Erlend and Lillesand, Melinda and Janssen, Emiel AM and Engan, Kjersti},
+  journal={IEEE Access},
   year={2021},
   publisher={IEEE},
   url={doi.org/10.1109/ACCESS.2021.3104724}
