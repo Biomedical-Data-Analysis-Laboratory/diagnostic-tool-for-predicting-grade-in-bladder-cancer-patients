@@ -70,6 +70,6 @@ The code is released free of charge as open-source software under the GPL-3.0 Li
   journal={IEEE Access},
   year={2021},
   publisher={IEEE},
-  url={doi.org/10.1109/ACCESS.2021.3104724}
+  url={http://www.doi.org/10.1109/ACCESS.2021.3104724}
 }
 ```
